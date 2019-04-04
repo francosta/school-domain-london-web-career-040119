@@ -26,7 +26,5 @@ class School
     all_students = []
     binding.pry
     "test"
-    
-    roster.each do |grade, students|
-      binding.pry
-    end
+
+end
