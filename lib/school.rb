@@ -25,9 +25,8 @@ class School
   def sort
     all_students = []
     roster.each do |grade, students|
-      binding.pry
       students.each {|student| all_students << student}
     end
-    all_students
+    all_students.sort
   end
 end
