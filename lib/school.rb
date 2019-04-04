@@ -24,10 +24,7 @@ class School
   
   def sort
     all_students = []
-    roster.each do |grade, students|
-      students.each {|student| all_students << student}
-    end
-    binding.pry
+    roster.map {grade, students| students.sort}
     all_students.sort
   end
 end
