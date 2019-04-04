@@ -9,6 +9,7 @@ class School
   
   def add_student(name, grade)
     binding.pry
+    "test"
   end
   
 end
