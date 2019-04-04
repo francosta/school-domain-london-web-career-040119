@@ -27,6 +27,6 @@ class School
     roster.each do |grade, students|
       students.each {|student| all_students << student}
     end
-    all_students.sort
   end
+    all_students.sort
 end
