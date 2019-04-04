@@ -10,7 +10,6 @@ class School
   end
   
   def add_student(name, grade)
-    binding.pry
     school.roster[grade] = []
     school.roster[grade] << name
   end
