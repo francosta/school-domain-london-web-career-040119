@@ -9,7 +9,6 @@ class School
   
   def add_student(name, grade)
     school.roster[grade] = name
-    "test"
   end
   
 end
