@@ -23,8 +23,8 @@ class School
   end
   
   def sort
-    all_students = []
     roster.map {grade, students| students.sort}
-    all_students.sort
+    roster
   end
+  
 end
