@@ -28,5 +28,6 @@ class School
       students.each {|student| all_students << student}
     end
     binding.pry
+    all_students.sort
   end
 end
