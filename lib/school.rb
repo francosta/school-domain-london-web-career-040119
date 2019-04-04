@@ -9,7 +9,6 @@ class School
   
   def add_student(name, grade)
     binding.pry
-    school.roster
   end
   
 end
