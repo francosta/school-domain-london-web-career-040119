@@ -28,5 +28,5 @@ class School
       students.each {|student| all_students << student}
     end
   end
-    all_students.sort
+  all_students.sort
 end
