@@ -8,7 +8,7 @@ class School
   end
   
   def add_student(name, grade)
-    school.roster[grade] = name
+    school.roster[grade] = [name]
   end
   
   binding.pry
