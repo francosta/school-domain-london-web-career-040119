@@ -22,4 +22,10 @@ class School
     roster[grade]
   end
   
-end
+  def sort
+    all_students = []
+    roster.each do |grade, students|
+      students.each {|student| all_students << student}
+    end
+    all_students
+  end
