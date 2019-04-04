@@ -30,4 +30,3 @@ class School
     roster.each do |grade, students|
       binding.pry
     end
-  end
