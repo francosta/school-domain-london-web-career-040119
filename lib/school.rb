@@ -14,4 +14,8 @@ class School
     school.roster[grade] << name
   end
   
+  def grade
+    school.roster[9]
+  end
+  
 end
