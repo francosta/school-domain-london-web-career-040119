@@ -26,7 +26,6 @@ class School
     all_students = []
     roster.each do |grade, students|
       binding.pry
-      students.each {|student| all_students << student}
     end
     all_students
   end
