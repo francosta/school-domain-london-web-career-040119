@@ -24,6 +24,7 @@ class School
   
   def sort
     all_students = []
+    binding.pry
     
     roster.each do |grade, students|
       binding.pry
