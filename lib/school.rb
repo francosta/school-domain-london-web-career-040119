@@ -11,6 +11,4 @@ class School
     school.roster[grade] = [name]
   end
   
-  binding.pry
-  
 end
