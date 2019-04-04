@@ -24,7 +24,6 @@ class School
   
   def sort
     hash = {}
-    binding.pry
     roster.each {|grade, students| hash[grade] = students.sort}
     hash
   end
